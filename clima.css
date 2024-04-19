@@ -1,0 +1,126 @@
+body {
+    background-color: #000;
+}
+
+.clima {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #222;
+    width: 652px;
+    height: 338px;
+    box-shadow: 0 0 30px 1px #999;
+    border-radius: 10px;
+}
+
+.contenedor-inicial {
+    display: flex;
+}
+
+.clima-imagen-uno {
+    /* background-color: #dddc;*/
+    width: 60px;
+    height: 60px;
+    /*  border: solid #dddc;*/
+    border-radius: 20px;
+    margin: 5px 0 0 10px;
+}
+
+.clima-temperatura {
+    align-content: center;
+    width: 50px;
+    font-size: 50px;
+    color: #ddd;
+    display: inline;
+}
+
+.clima-temperatura-c {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 2px 1px 0 2px;
+    color: #ddd;
+
+}
+
+.clima-temperatura-f {
+    color: #888;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 2px 5px 0 1px;
+}
+
+.informacion-clima {
+    width: 110px;
+    font-size: 12px;
+    display: block;
+    color: #888;
+    margin-top: 3px;
+}
+
+.clima-dia {
+    margin-left: 80px;
+    width: 40%;
+    text-align: right;
+    box-sizing: border-box;
+
+}
+
+.clima-titulo {
+    font-size: 30px;
+    color: #ddd;
+
+}
+
+.informacion-dia {
+    color: #888;
+    font-size: 16px;
+}
+
+
+.precipitaciones {
+    display: flex;
+    margin: 20px 0px 10px 20px;
+}
+
+.precipitaciones-informacion {
+    margin-right: 10px;
+    color: #999;
+    text-decoration: underline #eb5;
+}
+
+.precipitaciones-resultado {
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #222;
+    margin: 0px 5px 0px 5px;
+}
+
+.semana-informacion {
+    display: flex;
+    margin: 10px 0px 10px 20px;
+}
+
+.clima-semana {
+    margin: 0 40px 0 0px;
+    width: 70px;
+    text-align: center;
+}
+
+.clima-semana-informacion {
+    color: #ddd;
+}
+
+.imagen-clima {
+    width: 40px;
+}
+
+.clima-grados-c {
+    font-size: 18px;
+    padding: 2px 1px 0 2px;
+    color: #ddd;
+}
+
+.clima-grados-min {
+    color: #888;
+    font-size: 15px;
+    padding: 2px 5px 0 1px;
+}
